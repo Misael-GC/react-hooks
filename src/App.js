@@ -24,12 +24,12 @@ function App() {
   return (
     <ThemeProvider>
     <div className="App" style={{backgroundColor: themeStyles[theme].background, color: themeStyles[theme].textColor}}>
-    <Headers/>
+        <Headers/>
         <Header />
         <button onClick={toggleTheme}>
         Modo Pantalla
         </button>
-        <p>Current Themes is "{theme}"</p>
+        <p>hook useState en App.js "{theme}"</p>
         <Characters />
     </div>
     </ThemeProvider>

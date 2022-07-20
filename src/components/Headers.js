@@ -5,7 +5,7 @@ const Headers = () => {
     const {theme, toggleTheme, themeName} = useTheme();
     return( 
         <header className="App-header" style={{ backgroundColor: theme.background, color: theme.textColor }}>
-        <p>Current Theme is "{themeName}"</p>
+        <p>Hook Context(reto) "{themeName}"</p>
         <button onClick={toggleTheme}>Toggle Theme</button>
       </header>
     )
