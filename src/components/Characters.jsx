@@ -62,6 +62,7 @@ const Characters = () => {
 
             <Search search={search} searchInput={searchInput} handleSearch={handleSearch}/>
 
+        <div className='Naruto'>
         {filteredUsers.map(character => (
             <div className='item' key={character.id}>
             <div className='container-card'>
@@ -74,6 +75,7 @@ const Characters = () => {
             </div>
             </div>
         ))}
+        </div>
     </div>
   )
 }

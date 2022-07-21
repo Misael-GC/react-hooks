@@ -1,12 +1,19 @@
-.Characters{
-    display: grid;
+.Naruto{
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 16px;
-    padding: 24px;
+    padding: 24px; */
+    display: flex;
+    gap: 30px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 
 .container-card{
     padding: 4px;
     box-shadow: 0 0 8px 1px #9e9e9e;
+    min-height: 400px;
 }
